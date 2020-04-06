@@ -6,5 +6,5 @@ app_name = 'blog_posts'
 urlpatterns = [
 	# Home Page
 	path('', views.index, name='index'),
-	path('topics', views.topics, name='topics'),
+	path('topics/', views.topics, name='topics'),
 ]
